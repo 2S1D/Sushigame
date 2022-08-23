@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2070780965
+    locked: 0
+  - name: CuttingBoard
+    uniqueID: 1101549257
+    locked: 0
+  - name: NotMoveTile
+    uniqueID: 2799890305
+    locked: 0
+  - name: Test
+    uniqueID: 3133866541
+    locked: 0
