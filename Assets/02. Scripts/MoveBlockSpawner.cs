@@ -1,24 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MoveBlockSpawner : MonoBehaviour
 {
-    [SerializeField] private Transform[] blockSpawnPoint;
-    [SerializeField] private GameObject[] blockPre;
+    [SerializeField] private GameObject[] sushiPre;
 
-    private void Awake()
+    private void Start()
     {
-        StartCoroutine("OnSpawnBlock");
-    }
-
-    private IEnumerator OnSpawnBlock()
-    {
-        for(int i = 0; i < blockSpawnPoint.Length; ++i)
-        {
-            yield return new WaitForSeconds(0.1f);
-            int index = Random.Range(0, blockPre.Length);
-            Instantiate(blockPre[index], blockSpawnPoint[i].position, Quaternion.identity, blockSpawnPoint[i]);
-        }
+        Debug.Log(11);
+        sushiPre[0].SetActive(true);
     }
 }

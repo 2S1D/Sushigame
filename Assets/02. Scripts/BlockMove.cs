@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class BlockMove : MonoBehaviour
+public class BlockMove : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField] private AnimationCurve curveMoment;
     [SerializeField] private AnimationCurve curveScale;
@@ -15,7 +16,7 @@ public class BlockMove : MonoBehaviour
 
     public void Setup(Vector3 parentPosition)
     {
-        StartCoroutine(OnMoveto(parentPosition, appearTime));
+        // StartCoroutine(OnMoveto(parentPosition, appearTime));
     }
 
     private void OnMouseDown()
@@ -34,7 +35,7 @@ public class BlockMove : MonoBehaviour
     {
         StopCoroutine("OnScalTo");
         StartCoroutine("OnScalTo", Vector3.one * 0.5f);
-        StartCoroutine(OnMoveTo(transform.parent.position, returnTime));
+        // StartCoroutine(OnMoveTo(transform.parent.position, returnTime));
     }
 
     // private IEnumerator OnMoveTo(Vector3 end, float time)
@@ -54,5 +55,20 @@ public class BlockMove : MonoBehaviour
 
             yield return null;
         }
+    }
+
+    public void OnPointerDown(PointerEventData eventData)
+    {
+
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+
     }
 }
