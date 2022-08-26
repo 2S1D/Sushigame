@@ -11,5 +11,6 @@ public class MoveBlockSpawner : MonoBehaviour
     {
         Debug.Log(11);
         sushiPre[0].SetActive(true);
+        sushiPre[1].SetActive(true);
     }
 }
