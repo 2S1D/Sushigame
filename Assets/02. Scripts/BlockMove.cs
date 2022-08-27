@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 public class BlockMove : MonoBehaviour
 {
     [SerializeField] private int snapOffset = 30;
+    [SerializeField] private GameObject blockPosition;
 
     //public Vector2Int blockCount { private set; get; }
     public BlockPuzzle puzzle;
@@ -17,17 +18,18 @@ public class BlockMove : MonoBehaviour
 
     private void OnMouseUp()
     {
-        /*float x = Mathf.RoundToInt(transform.position.x -blockCount.x % 2 * 0.5f) + blockCount.x % 2 * 0.5f;
-        float y = Mathf.RoundToInt(transform.position.x -blockCount.x % 2 * 0.5f) + blockCount.x % 2 * 0.5f;
+        //float x = Mathf.RoundToInt(transform.position.x -blockCount.x % 2 * 0.5f) + blockCount.x % 2 * 0.5f;
+        //float y = Mathf.RoundToInt(transform.position.x -blockCount.x % 2 * 0.5f) + blockCount.x % 2 * 0.5f;
 
-        transform.position = new Vector3(x, y, 0);*/
+        //transform.position = new Vector3(x, y, 0);
     }
 
     private void OnMouseDown()
     {
-        if (!CheckSnapBlock())
+        if (Vector3.Distance(blockPosition.transform.position, transform.position) < snapOffset)
         {
-            transform.SetParent(puzzle.blockPosition.transform);
+            transform.SetParent(blockPosition.transform);
+            transform.localPosition = Vector3.zero;
         }
     }
 
