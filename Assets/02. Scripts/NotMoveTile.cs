@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NotMoveTileSpawner : MonoBehaviour
+public class NotMoveTile : MonoBehaviour
 {
     [SerializeField] private GameObject tilePre;
     [SerializeField] private int orderInLayer;

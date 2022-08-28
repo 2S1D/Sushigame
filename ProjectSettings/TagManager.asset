@@ -53,12 +53,3 @@ TagManager:
   - name: Test
     uniqueID: 3133866541
     locked: 0
-  - name: Sushi
-    uniqueID: 831674989
-    locked: 0
-  - name: Position
-    uniqueID: 2767262091
-    locked: 0
-  - name: Success
-    uniqueID: 2347701867
-    locked: 0
