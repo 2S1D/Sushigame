@@ -32,7 +32,7 @@ public class BlockMove : MonoBehaviour
             transform.SetParent(puzzle.block.transform);
         }
 
-        if (IsClear())
+        if (puzzle.IsClear())
         {
             Debug.Log("Clear");
         }
@@ -62,21 +62,5 @@ public class BlockMove : MonoBehaviour
             }
         }
         return false;
-    }
-
-    public bool IsClear()
-    {
-        for (int i = 0; i < blockPosition.transform.childCount; i++)
-        {
-            if (blockPosition.transform.GetChild(i).childCount == 0)
-            {
-                return false;
-            }
-            if (blockPosition.transform.GetChild(i).GetChild(0).GetComponent<BlockMove>())
-            {
-                return false;
-            }
-        }
-        return true;
     }
 }

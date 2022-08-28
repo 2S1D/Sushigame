@@ -291,7 +291,7 @@ PrefabInstance:
     - target: {fileID: -7263728473072502540, guid: 37c56c7bbe303174f96430d93e1f0876, type: 3}
       propertyPath: blockPosition
       value: 
-      objectReference: {fileID: 2061810010}
+      objectReference: {fileID: 558636230}
     - target: {fileID: 1127031298838598090, guid: 37c56c7bbe303174f96430d93e1f0876, type: 3}
       propertyPath: m_Name
       value: SalmonSushi
@@ -557,7 +557,7 @@ PrefabInstance:
     - target: {fileID: -7263728473072502540, guid: 37c56c7bbe303174f96430d93e1f0876, type: 3}
       propertyPath: blockPosition
       value: 
-      objectReference: {fileID: 558636230}
+      objectReference: {fileID: 2061810010}
     - target: {fileID: 1127031298838598090, guid: 37c56c7bbe303174f96430d93e1f0876, type: 3}
       propertyPath: m_Name
       value: SalmonSushi (1)
