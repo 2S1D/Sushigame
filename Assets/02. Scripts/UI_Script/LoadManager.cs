@@ -7,7 +7,7 @@ using DG.Tweening;
 public class LoadManager : MonoBehaviour
 {
     [SerializeField] float fadeInTime = 1f;
-    [SerializeField] float fadeOutTime = 1f;
+    [SerializeField] float fadeOutTime = 2f;
 
     [SerializeField] private Image image = null;
 
@@ -33,7 +33,7 @@ public class LoadManager : MonoBehaviour
         }
 
         //비동기식 : 다른 프로그램들이 동작하게 한다.
-        AsyncOperation unloadOperation = SceneManager.UnloadSceneAsync(0); //Scene지우기
+        AsyncOperation unloadOperation = SceneManager.UnloadSceneAsync("01Start"); //Scene지우기
         AsyncOperation loadOperation = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive); //Scene불러오기
 
         while (!unloadOperation.isDone && !loadOperation.isDone)
