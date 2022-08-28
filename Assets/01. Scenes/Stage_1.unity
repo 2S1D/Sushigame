@@ -184,6 +184,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: -7263728473072502540, guid: 37c56c7bbe303174f96430d93e1f0876, type: 3}
+      propertyPath: moveBlock
+      value: 
+      objectReference: {fileID: 387577137}
+    - target: {fileID: -7263728473072502540, guid: 37c56c7bbe303174f96430d93e1f0876, type: 3}
+      propertyPath: notMoveBlock
+      value: 
+      objectReference: {fileID: 1356356152}
+    - target: {fileID: -7263728473072502540, guid: 37c56c7bbe303174f96430d93e1f0876, type: 3}
       propertyPath: blockPosition
       value: 
       objectReference: {fileID: 2061810010}
@@ -429,6 +437,14 @@ PrefabInstance:
       propertyPath: puzzle
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: -7263728473072502540, guid: 37c56c7bbe303174f96430d93e1f0876, type: 3}
+      propertyPath: moveBlock
+      value: 
+      objectReference: {fileID: 749639484}
+    - target: {fileID: -7263728473072502540, guid: 37c56c7bbe303174f96430d93e1f0876, type: 3}
+      propertyPath: notMoveBlock
+      value: 
+      objectReference: {fileID: 1356356152}
     - target: {fileID: -7263728473072502540, guid: 37c56c7bbe303174f96430d93e1f0876, type: 3}
       propertyPath: blockPosition
       value: 
