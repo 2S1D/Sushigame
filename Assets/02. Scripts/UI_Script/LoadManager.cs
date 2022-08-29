@@ -10,13 +10,14 @@ public class LoadManager : MonoBehaviour
     [SerializeField] float fadeOutTime = 2f;
 
     [SerializeField] private Image image = null;
+    Load load;
 
-    public void LoadScene(string sceneName)
+    public void LoadScene(string sceneName, string curSceneName)
     {
-        StartCoroutine(Loading(sceneName));
+        StartCoroutine(Loading(sceneName, curSceneName));
     }
 
-    IEnumerator Loading(string sceneName)
+    IEnumerator Loading(string sceneName, string curSceneName)
     {
         //이미지 a값 0이라고 가정 
 
@@ -33,7 +34,7 @@ public class LoadManager : MonoBehaviour
         }
 
         //비동기식 : 다른 프로그램들이 동작하게 한다.
-        AsyncOperation unloadOperation = SceneManager.UnloadSceneAsync("01Start"); //Scene지우기
+        AsyncOperation unloadOperation = SceneManager.UnloadSceneAsync(curSceneName); //Scene지우기
         AsyncOperation loadOperation = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive); //Scene불러오기
 
         while (!unloadOperation.isDone && !loadOperation.isDone)

@@ -345,14 +345,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_7
+          m_StringArgument: Stage_7#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &120732384
@@ -431,7 +431,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176695755}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 880.1756, y: 498.95898, z: 5.409863}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -673,14 +673,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_11
+          m_StringArgument: Stage_11#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &254161084
@@ -942,14 +942,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_6
+          m_StringArgument: Stage_6#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &473855898
@@ -1225,14 +1225,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_18
+          m_StringArgument: Stage_18#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &512585881
@@ -1373,14 +1373,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_9
+          m_StringArgument: Stage_9#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &546845598
@@ -2129,14 +2129,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_1
+          m_StringArgument: Stage_1#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &951613505
@@ -2277,14 +2277,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_4
+          m_StringArgument: Stage_4#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &967915552
@@ -2510,14 +2510,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_2
+          m_StringArgument: Stage_2#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &996411996
@@ -2734,14 +2734,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_3
+          m_StringArgument: Stage_3#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1043370666
@@ -3422,14 +3422,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 20
+          m_StringArgument: Stage_20#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1364483888
@@ -3570,14 +3570,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_5
+          m_StringArgument: Stage_5#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1376266137
@@ -3718,14 +3718,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_16
+          m_StringArgument: Stage_16#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1381672928
@@ -3866,14 +3866,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_8
+          m_StringArgument: Stage_8#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1396684084
@@ -4149,14 +4149,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_17
+          m_StringArgument: Stage_17#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1438567724
@@ -4702,14 +4702,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_12
+          m_StringArgument: Stage_12#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1628405015
@@ -4850,14 +4850,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_10
+          m_StringArgument: Stage_10#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1700627672
@@ -5268,14 +5268,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_15
+          m_StringArgument: Stage_15#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1836832375
@@ -5551,14 +5551,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_19
+          m_StringArgument: Stage_19#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1980873312
@@ -5834,14 +5834,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_14
+          m_StringArgument: Stage_14#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2130286618
@@ -6117,14 +6117,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 176695757}
         m_TargetAssemblyTypeName: Load, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadSceneN
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage_13
+          m_StringArgument: Stage_13#StageCollect
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2144830102

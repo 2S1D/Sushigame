@@ -13,12 +13,15 @@ public class Load : MonoBehaviour
         DontDestroyOnLoad(this);
     }
 
-    public void LoadScene(string sceneName)
+    public void LoadSceneN(string nextSceneAndCurSceneName)
     {
-        StartCoroutine(LoadSceneAsync(sceneName));
+        string NextsceneName = nextSceneAndCurSceneName.Split('#')[0];
+        string curSceneName = nextSceneAndCurSceneName.Split('#')[1];
+
+        StartCoroutine(LoadSceneAsync(NextsceneName, curSceneName));
     }
 
-    IEnumerator LoadSceneAsync(string sceneName)
+    IEnumerator LoadSceneAsync(string sceneName, string curSceneName)
     {
         AsyncOperation loadOper = SceneManager.LoadSceneAsync(loadSceneName, LoadSceneMode.Additive);
         
@@ -27,6 +30,6 @@ public class Load : MonoBehaviour
             Debug.Log(loadOper.progress);
             yield return null;
         }
-        FindObjectOfType<LoadManager>().LoadScene(sceneName);
+        FindObjectOfType<LoadManager>().LoadScene(sceneName, curSceneName);
     }
 }
