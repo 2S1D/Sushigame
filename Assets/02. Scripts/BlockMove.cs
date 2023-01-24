@@ -34,6 +34,7 @@ public class BlockMove : MonoBehaviour
 
         if (puzzle.IsClear())
         {
+            success.gameObject.SetActive(true);
             Debug.Log("Clear");
         }
     }
