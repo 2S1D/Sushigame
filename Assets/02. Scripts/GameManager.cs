@@ -5,14 +5,16 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private Image success;
-    void Start()
-    {
-        
-    }
+    [SerializeField] private GameObject success;
+    [SerializeField] private Button nextButton;
 
-    void Update()
+    BlockMove blockMove;
+
+    private void Clear()
     {
-        
+        /*if(blockMove.isClear == true)
+        {
+            nextButton.gameObject.SetActive(true);
+        }*/
     }
 }

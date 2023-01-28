@@ -10,8 +10,14 @@ public class BlockMove : MonoBehaviour
     [SerializeField] private GameObject success;
     [SerializeField] private Transform sushiPre;
 
-    //public Vector2Int blockCount { private set; get; }
+    public bool isClear;
+
     public BlockPuzzle puzzle;
+
+    private void Start()
+    {
+        //isClear = false;
+    }
 
     void OnMouseDrag()
     {
@@ -36,6 +42,9 @@ public class BlockMove : MonoBehaviour
         {
             success.gameObject.SetActive(true);
             Debug.Log("Clear");
+            Debug.Log(1);
+            isClear = true;
+            Debug.Log(isClear);
         }
     }
 
