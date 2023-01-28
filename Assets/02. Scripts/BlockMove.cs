@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class BlockMove : MonoBehaviour
 {
@@ -9,15 +10,11 @@ public class BlockMove : MonoBehaviour
     [SerializeField] private GameObject blockPosition;
     [SerializeField] private GameObject success;
     [SerializeField] private Transform sushiPre;
+    [SerializeField] private Button nextButton;
 
     public bool isClear;
 
     public BlockPuzzle puzzle;
-
-    private void Start()
-    {
-        //isClear = false;
-    }
 
     void OnMouseDrag()
     {
@@ -45,6 +42,7 @@ public class BlockMove : MonoBehaviour
             Debug.Log(1);
             isClear = true;
             Debug.Log(isClear);
+            nextButton.gameObject.SetActive(true);
         }
     }
 
