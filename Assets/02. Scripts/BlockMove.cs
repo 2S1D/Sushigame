@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class BlockMove : MonoBehaviour
 {
-    [SerializeField] private float snapOffset = 30;
+    [SerializeField] private float snapOffset = 1f;
     [SerializeField] private GameObject blockPosition;
     [SerializeField] private GameObject success;
     [SerializeField] private Transform sushiPre;
